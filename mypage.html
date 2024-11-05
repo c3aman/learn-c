@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            color: white;
+        }
+        body{
+            height: 100vh;
+            background: rgb(141, 141, 234);
+        }
+        .header-web{
+            background: url(power.jpg) no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .nev{
+            height: 70px;
+            width: 100%;
+            background:transparent;
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nev-top{
+            margin-left:12px;
+
+        }
+
+        .nev-top p{
+            font-size: 2rem;
+            color:white;
+        }
+
+        .info{
+            margin-right: 12px;
+            height: 100%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-between;
+        }
+        .info a{
+            text-decoration: none;
+            color: red;
+            font-size: 1.4rem;
+        }
+        #butt{
+            margin-right: 12px;
+            background:transparent;
+            height: 40px;
+            width: 50px;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .main-head{
+            height: 300px;
+            width: 100%;
+            /* background: blue; */
+            
+        }
+        #h1-welcome{
+            position: relative;
+            top: 65px;
+            left: 37%;
+        }
+        
+        .main-head p{
+            position: relative;
+            top: 60px;
+            left: 35%;
+        }
+        .main-butt{
+            height: 35px;
+            width: 300px;
+            position: relative;
+            top: 130px;
+            left: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-butt button{
+            height: 100%;
+            width: 100%;
+            font-size: 1.3rem ;
+            background-color:rgb(207, 189, 116);
+            border: none;
+            border-radius: 15px;
+        }
+
+        .black{
+            
+            color: black;
+            
+        }
+
+        .main-person{
+            height: 400px;
+            width: 70rem;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header-web">
+        <div class="nev">
+            <div class="nev-top">
+                <p id="wel">Welcome</p>
+            </div>
+            <div class="info">
+                <a href="">Account</a>
+                <a href="">Datile</a>
+                <a href="">All about</a>
+                <a href="">Logo</a>
+                <button id="butt">Log in</button>
+            </div>
+        </div>
+    
+        <div class="main-head">
+           
+            <h1 id="h1-welcome">Welcome you in this website</h1>
+           
+            <p>Join our free Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="main-butt">
+                <button>Access Information</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 class="black">According your intrest</h1>
+
+        <div class="main-person">
+            <div class="main-person-list"></div>
+            <div class="main-person-list"></div>
+            <div class="main-person-list"></div>
+        </div>
+    </main>
+</body>
+</html>
